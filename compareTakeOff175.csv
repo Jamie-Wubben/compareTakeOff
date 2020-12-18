@@ -1,0 +1,2 @@
+numUAVs;GroundFormation;AirFormation;TakeoffStrategy;altitude;setupTime;calculationTime;totalDistance;takeoffTime;numberCollisions;fullTime
+175;Random;Regular matrix;Simplified;5.0;4536;4313;2706.2554;1411355;0;1420208;
