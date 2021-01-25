@@ -1,6 +1,0 @@
-numUAVs;GroundFormation;AirFormation;TakeoffStrategy;altitude;setupTime;calculationTime;totalDistance;takeoffTime;numberCollisions;fullTime
-75;Random;Linear;Hungarian;5.0;2264;4240;9103.4523;926382;561;932905;
-75;Random;Regular matrix;Hungarian;5.0;2658;3818;1172.3674;640374;98;646854;
-75;Random;Linear;Simplified;5.0;2680;3868;9123.9255;619112;0;625691;
-75;Random;Circle;Simplified;5.0;2280;4242;4714.0685;663520;0;670073;
-75;Random;Regular matrix;Simplified;5.0;3249;4022;1160.1566;608116;0;615391;
