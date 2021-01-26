@@ -18,7 +18,8 @@ def writeProtocolParameters(strategy,ground,air,numUAVs):
         f.write("takeOffStrategy=" + strategy + "\n")
         f.write("flyingFormation=" + air + "\n")
         f.write("flyingMinDistance=50\n")
-        f.write("outputFile=compareTakeOff" + str(numUAVs) + ".csv")  
+        f.write("outputFile=randomToMatrix.csv\n")
+        f.write("altitude=10")  
 
 def writeArduSimParameters(numUAVs):
     with open(ardusimParametersFilePath,'r') as file:
