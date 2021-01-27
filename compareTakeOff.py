@@ -68,7 +68,7 @@ def removeFoldersAfterError():
         cmd = ['rm','-r',directory]
         subprocess.run(cmd)
 
-for a in range(1,40):
+for a in range(11,40):
     numUAVs = a*25
     writeArduSimParameters(numUAVs)
     for strategy in strategies:

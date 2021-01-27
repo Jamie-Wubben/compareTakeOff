@@ -1,0 +1,20 @@
+numUAVs;GroundFormation;AirFormation;TakeoffStrategy;altitude;setupTime;calculationTime;totalDistance;takeoffTime;numberCollisions;fullTime
+25;Random;Compact matrix;Hungarian;5.0;2103;4625;377.6110;31099;0;37861;
+25;Random;Compact matrix;Simplified;5.0;2097;5616;382.5267;30888;0;38611;
+50;Random;Compact matrix;Hungarian;5.0;2466;3632;742.1141;35686;0;41877;
+50;Random;Compact matrix;Simplified;5.0;2246;3853;749.1331;35878;0;41993;
+75;Random;Compact matrix;Hungarian;5.0;3664;4453;1109.6385;39699;1;47865;
+75;Random;Compact matrix;Simplified;5.0;2478;4253;1119.6038;38675;4;45429;
+
+100;Random;Compact matrix;Hungarian;5.0;2325;3827;1469.1632;41679;0;47837;
+100;Random;Compact matrix;Simplified;5.0;2506;4246;1480.5295;41304;8;48061;
+125;Random;Compact matrix;Hungarian;5.0;2436;4053;1830.5139;43475;1;49968;
+125;Random;Compact matrix;Simplified;5.0;2540;3825;1843.4386;43290;1;49659;
+150;Random;Compact matrix;Hungarian;5.0;3007;4660;2192.0581;46708;0;54378;
+150;Random;Compact matrix;Simplified;5.0;3224;4034;2201.3386;45869;0;53131;
+175;Random;Compact matrix;Hungarian;5.0;4406;5086;2548.1830;47188;0;56702;
+175;Random;Compact matrix;Simplified;5.0;3892;4298;2559.1355;46892;14;55094;
+200;Random;Compact matrix;Hungarian;5.0;6319;5198;2907.5273;48958;1;60477;
+200;Random;Compact matrix;Simplified;5.0;7622;4662;2919.3281;47237;20;59523;
+225;Random;Compact matrix;Hungarian;5.0;8081;29853;3268.2279;39541;1;77503;
+225;Random;Compact matrix;Simplified;5.0;7823;4573;3280.9387;48620;36;61019;
