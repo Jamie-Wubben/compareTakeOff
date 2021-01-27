@@ -1,18 +1,17 @@
-25;Hungarian;Random;Compact matrix;executed correctly
-25;Simplified;Random;Compact matrix;executed correctly
-50;Hungarian;Random;Compact matrix;executed correctly
-50;Simplified;Random;Compact matrix;executed correctly
-75;Hungarian;Random;Compact matrix;executed correctly
-75;Simplified;Random;Compact matrix;executed correctly
-100;Hungarian;Random;Compact matrix;executed correctly
-100;Simplified;Random;Compact matrix;executed correctly
-125;Hungarian;Random;Compact matrix;executed correctly
-125;Simplified;Random;Compact matrix;executed correctly
-150;Hungarian;Random;Compact matrix;executed correctly
-150;Simplified;Random;Compact matrix;executed correctly
-175;Hungarian;Random;Compact matrix;executed correctly
-175;Simplified;Random;Compact matrix;executed correctly
-200;Hungarian;Random;Compact matrix;executed correctly
-200;Simplified;Random;Compact matrix;executed correctly
-225;Hungarian;Random;Compact matrix;executed correctly
-225;Simplified;Random;Compact matrix;executed correctly
+25;Hungarian;Random;Regular matrix;executed correctly
+25;Simplified;Random;Regular matrix;executed correctly
+50;Hungarian;Random;Regular matrix;executed correctly
+50;Hungarian;Random;Regular matrix;executed correctly
+50;Simplified;Random;Regular matrix;executed correctly
+75;Hungarian;Random;Regular matrix;executed correctly
+75;Simplified;Random;Regular matrix;executed correctly
+100;Hungarian;Random;Regular matrix;executed correctly
+100;Simplified;Random;Regular matrix;executed correctly
+125;Hungarian;Random;Regular matrix;took to long
+125;Simplified;Random;Regular matrix;executed correctly
+150;Hungarian;Random;Regular matrix;executed correctly
+150;Simplified;Random;Regular matrix;executed correctly
+175;Hungarian;Random;Regular matrix;executed correctly
+175;Simplified;Random;Regular matrix;executed correctly
+200;Hungarian;Random;Regular matrix;executed correctly
+200;Simplified;Random;Regular matrix;took to long
