@@ -4,11 +4,11 @@ import os.path
 
 strategies = ["Hungarian","Simplified"]
 groundFormations = ["Random"]
-airFormations = ["Regular matrix"]
+airFormations = ["Linear"]
 
 protocolparametersFilePath = "compareTakeOff.properties"
 ardusimParametersFilePath = "SimulationParam.properties"
-logFilePath = "logFileRandomtomatrixParralel.txt"
+logFilePath = "logFileRandomtoLinearParralel.txt"
 
 def writeProtocolParameters(strategy,ground,air,numUAVs):
     with open(protocolparametersFilePath, "w") as f:
@@ -18,7 +18,7 @@ def writeProtocolParameters(strategy,ground,air,numUAVs):
         f.write("takeOffStrategy=" + strategy + "\n")
         f.write("flyingFormation=" + air + "\n")
         f.write("flyingMinDistance=50\n")
-        f.write("outputFile=randomToMatrixParralel.csv\n")
+        f.write("outputFile=randomToLinearParralel.csv\n")
         f.write("takeOffIsSequential=true")
         f.write("altitude=10")  
 
@@ -68,7 +68,7 @@ def removeFoldersAfterError():
         cmd = ['rm','-r',directory]
         subprocess.run(cmd)
 
-for a in range(2,9):
+for a in range(1,9):
     numUAVs = a*25
     writeArduSimParameters(numUAVs)
     for strategy in strategies:
