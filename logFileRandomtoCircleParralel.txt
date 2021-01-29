@@ -1,0 +1,14 @@
+25;Hungarian;Random;Circle;executed correctly
+25;Simplified;Random;Circle;executed correctly
+50;Hungarian;Random;Circle;executed correctly
+50;Simplified;Random;Circle;executed correctly
+75;Hungarian;Random;Circle;executed correctly
+75;Simplified;Random;Circle;executed correctly
+100;Hungarian;Random;Circle;executed correctly
+100;Simplified;Random;Circle;executed correctly
+125;Hungarian;Random;Circle;executed correctly
+125;Simplified;Random;Circle;executed correctly
+150;Hungarian;Random;Circle;took to long
+150;Simplified;Random;Circle;executed correctly
+175;Hungarian;Random;Circle;executed correctly
+175;Simplified;Random;Circle;executed correctly
