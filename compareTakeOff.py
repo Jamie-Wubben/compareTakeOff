@@ -2,13 +2,13 @@ import subprocess
 import glob
 import os.path
 
-strategies = ["Hungarian","Simplified"]
+strategies = ["Hungarian"]
 groundFormations = ["Random"]
-airFormations = ["Regular matrix","Circle","Linear"]
+airFormations = ["Linear"]
 
 protocolparametersFilePath = "compareTakeOff.properties"
 ardusimParametersFilePath = "SimulationParam.properties"
-logFilePath = "logFile.txt"
+logFilePath = "logFileSequential.txt"
 sequential = "false"
 
 def writeProtocolParameters(strategy,ground,air,numUAVs):
@@ -19,7 +19,7 @@ def writeProtocolParameters(strategy,ground,air,numUAVs):
         f.write("takeOffStrategy=" + strategy + "\n")
         f.write("flyingFormation=" + air + "\n")
         f.write("flyingMinDistance=50\n")
-        f.write("outputFile=randomToMatrix.csv\n")
+        f.write("outputFile=ParralelData.csv\n")
         f.write("takeOffIsSequential=" + str(sequential) + "\n")
         f.write("altitude=10")  
 
@@ -41,14 +41,14 @@ def removeFoldersAfterError():
 for ground in groundFormations:
     for strategy in strategies:
         for air in airFormations:
-            for a in range(1,9):
-                numUAVs = a*25
+            for a in range(8,9):
+                numUAVs = 189
                 writeArduSimParameters(numUAVs)
                 writeProtocolParameters(strategy,ground,air,numUAVs)
                 cmd = ['jdk-13/bin/java','-jar', 'ArduSim.jar', 'simulator-cli', ardusimParametersFilePath]
                 try:
                     print("running " + str(numUAVs) + " drones going to " + air + " with " + strategy)
-                    subprocess.run(cmd, timeout=600)
+                    subprocess.run(cmd, timeout=3000)
                     with open(logFilePath, 'a') as file:
                         file.write(str(numUAVs) + ";" + strategy + ";" + ground + ";" + air + ";executed correctly\n")
                 except subprocess.TimeoutExpired:
