@@ -2,14 +2,14 @@ import subprocess
 import glob
 import os.path
 
-strategies = ["Hungarian"]
+strategies = ["Simplified"]
 groundFormations = ["Random"]
-airFormations = ["Linear"]
+airFormations = ["Regular matrix"]
 
 protocolparametersFilePath = "compareTakeOff.properties"
 ardusimParametersFilePath = "SimulationParam.properties"
 logFilePath = "logFileSequential.txt"
-sequential = "false"
+sequential = "true"
 
 def writeProtocolParameters(strategy,ground,air,numUAVs):
     with open(protocolparametersFilePath, "w") as f:
@@ -19,7 +19,7 @@ def writeProtocolParameters(strategy,ground,air,numUAVs):
         f.write("takeOffStrategy=" + strategy + "\n")
         f.write("flyingFormation=" + air + "\n")
         f.write("flyingMinDistance=50\n")
-        f.write("outputFile=ParralelData.csv\n")
+        f.write("outputFile=SequentialData.csv\n")
         f.write("takeOffIsSequential=" + str(sequential) + "\n")
         f.write("altitude=10")  
 
@@ -41,8 +41,8 @@ def removeFoldersAfterError():
 for ground in groundFormations:
     for strategy in strategies:
         for air in airFormations:
-            for a in range(8,9):
-                numUAVs = 189
+            for a in range(1,9):
+                numUAVs = 25*a
                 writeArduSimParameters(numUAVs)
                 writeProtocolParameters(strategy,ground,air,numUAVs)
                 cmd = ['jdk-13/bin/java','-jar', 'ArduSim.jar', 'simulator-cli', ardusimParametersFilePath]

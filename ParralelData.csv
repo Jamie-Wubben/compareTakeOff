@@ -46,3 +46,12 @@ numUAVs;GroundFormation;AirFormation;TakeoffStrategy;altitude;setupTime;calculat
 150;Random;Linear;Simplified;10.0;3689;4349;25963.4863;385902;344;393973;
 175;Random;Linear;Simplified;10.0;3799;4588;32756.8440;445057;362;453447;
 200;Random;Linear;Simplified;10.0;4602;4340;40074.5239;506779;497;515725;
+
+25;Random;Regular matrix;Simplified;10.0;2299;4833;381.6369;30315;0;37470;
+50;Random;Regular matrix;Simplified;10.0;2266;3640;819.8095;39100;1;45079;
+75;Random;Regular matrix;Simplified;10.0;3281;5015;1169.2025;42435;3;50737;
+100;Random;Regular matrix;Simplified;10.0;2480;4459;1560.9325;47893;0;54837;
+125;Random;Regular matrix;Simplified;10.0;2542;4138;1936.4379;50315;4;57014;
+150;Random;Regular matrix;Simplified;10.0;3275;4230;2294.2198;52553;6;60064;
+175;Random;Regular matrix;Simplified;10.0;4991;4272;2675.8935;56029;25;65296;
+200;Random;Regular matrix;Simplified;10.0;5902;5906;3050.3493;56178;8;68048;

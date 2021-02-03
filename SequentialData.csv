@@ -47,3 +47,12 @@ numUAVs;GroundFormation;AirFormation;TakeoffStrategy;altitude;setupTime;calculat
 150;Random;Linear;Hungarian;10.0;3681;4476;25963.1818;1448363;1;1456560;
 175;Random;Linear;Hungarian;10.0;5878;5625;32756.3813;1678426;0;1689933;
 #
+
+25;Random;Regular matrix;Simplified;10.0;2101;6242;381.6369;248319;0;256682;
+50;Random;Regular matrix;Simplified;10.0;2449;4439;819.8095;474034;0;480927;
+75;Random;Regular matrix;Simplified;10.0;2490;4064;1169.2025;732755;0;739334;
+100;Random;Regular matrix;Simplified;10.0;2524;3882;1560.9325;969256;0;975766;
+125;Random;Regular matrix;Simplified;10.0;2802;3817;1936.4379;1196444;0;1203067;
+150;Random;Regular matrix;Simplified;10.0;3660;4277;2294.2198;1441009;0;1448970;
+175;Random;Regular matrix;Simplified;10.0;4748;4672;2675.8935;1688585;0;1698009;
+200;Random;Regular matrix;Simplified;10.0;7505;4524;3050.3493;1927751;0;1939783;

@@ -46,3 +46,11 @@
 150;Simplified;Random;Linear;executed correctly
 175;Simplified;Random;Linear;executed correctly
 200;Simplified;Random;Linear;executed correctly
+25;Simplified;Random;Regular matrix;executed correctly
+50;Simplified;Random;Regular matrix;executed correctly
+75;Simplified;Random;Regular matrix;executed correctly
+100;Simplified;Random;Regular matrix;executed correctly
+125;Simplified;Random;Regular matrix;executed correctly
+150;Simplified;Random;Regular matrix;executed correctly
+175;Simplified;Random;Regular matrix;executed correctly
+200;Simplified;Random;Regular matrix;executed correctly
